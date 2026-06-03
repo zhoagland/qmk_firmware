@@ -1,0 +1,24 @@
+{
+    "keyboard_name": "Model M Nucleo PoC",
+    "url": "http://zacharyhoagland.com/keyboard",
+    "maintainer": "ZDH",
+    "usb" : {
+        "vid" : "0xDEAD",
+        "pid": "0xBEEF",
+        "device_version": "0.1.0"
+    },
+    "width": 13,
+    "height": 11,
+    "manufacturer": "ZHOAGLAND",
+    "processor": "STM32F401",
+    "bootloader": "stm32-dfu",
+    "board": "ST_NUCLEO64_F401RE",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00", "x": 0, "y": 0, "matrix": [0, 0]},
+                {"label": "K01", "x": 1, "y": 0, "matrix": [0, 1]}
+            ]
+        }
+    }
+}
